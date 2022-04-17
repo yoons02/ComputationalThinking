@@ -1,0 +1,1 @@
+print(solve_maze(maze, "a", "X"))
