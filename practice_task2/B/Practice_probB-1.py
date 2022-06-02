@@ -42,4 +42,4 @@ print("class : %d " % (Y_class_train[0]))
 Y_train = np_utils.to_categorical(Y_class_train, 10)
 Y_test = np_utils.to_categorical(Y_class_test, 10) # 0, 1로만 이루어진 벡터로 변환
 
-print(Y_train[0])
+print(Y_train[0]) # 변환된 값 출력
