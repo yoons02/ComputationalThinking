@@ -17,5 +17,5 @@ for row in data :
             mx[j] = a
             mx_station[j] = row[3] # 역정보 저장
             
-print(mx_station)
-print(mx)
+print(mx_station) # 역 정보 출력
+print(mx) # 탑승자 수 출력

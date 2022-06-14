@@ -25,5 +25,6 @@ plt.title('지하철 시간대별 승하차 인원 추이')  # 제목 추가
 plt.plot(s_in, label='승차')             # 승차 인원을 꺾은선 그래프로 표현
 plt.plot(s_out, label='하차')            # 하차 인원을 꺾은선 그래프로 표현
 plt.legend()  # 범례 추가
+plt.grid() # 그리드 추가
 plt.xticks(range(24), range(4,28)) # 범위 지정
 plt.show() # 화면 보여줌

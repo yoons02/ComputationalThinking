@@ -11,7 +11,7 @@ label = ['유임승차','유임하차','무임승차','무임하차'] # 크기�
 for row in data : 
     for i in range(4,8) : # 4열 ~ 7열의 정보를
         row[i] = int(row[i]) # 정수형으로 바꿈
-        if row[i] > mx[i-4] : # 승차인원이 가장 많은 역을 찾는 과정
+        if row[i] > mx[i-4] : # 승하차인원이 가장 많은 역을 찾는 과정
             mx[i-4] = row[i] 
             mx_station[i-4] = row[3] +' '+ row[1] # '역이름' + ' ' + '호선' 
             
